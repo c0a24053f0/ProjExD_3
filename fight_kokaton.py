@@ -8,7 +8,7 @@ import math
 WIDTH = 1100  # ゲームウィンドウの幅
 HEIGHT = 650  # ゲームウィンドウの高さ
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-NUM_OF_BOMBS = 20  # 爆弾の数
+NUM_OF_BOMBS = 10  # 爆弾の数
 
 
 def check_bound(obj_rct: pg.Rect) -> tuple[bool, bool]:
